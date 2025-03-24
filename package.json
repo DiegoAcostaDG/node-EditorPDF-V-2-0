@@ -1,0 +1,23 @@
+{
+  "name": "pdf-viewer-project",
+  "version": "1.0.0",
+  "description": "An advanced PDF viewer app with AI anonymization",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^3.11.174",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.12",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "buffer": "^6.0.3"
+  }
+}
