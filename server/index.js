@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const HUGGING_FACE_API_KEY = process.env.HUGGING_FACE_API_KEY;
-const MODEL_URL = "https://api-inference.huggingface.co/models/microsoft/presidio-anonymization";
+const MODEL_URL = "https://api-inference.huggingface.co/models/BSC-LT/roberta_model_for_anonimization";
 
 app.post('/anonymize', async (req, res) => {
   try {
